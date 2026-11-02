@@ -1,0 +1,50 @@
+
+
+:root{
+    --Green:#3D6647;
+    --Brown:#2C1902;
+    --beige:#C3BBA7;
+    --H1: font-family: "Archivo Black", sans-serif;
+    --Body: font-family: "Oswald", sans-serif;
+ 
+}
+
+.card{
+width: 500px;
+height: 750px;
+}
+div{
+    background-color: var(--Green);
+    padding: 36px;
+    border-radius: 12px;
+    margin: auto;
+}
+
+div > img {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+header h1{
+    font-family: "Archivo Black", sans-serif;
+    color:var(--Brown);
+    font-size: 45px;
+    text-align: center;
+}
+main p{
+  font-family: "Oswald", sans-serif;
+  color: var(--beige);
+}
+.card button {
+  display: block;
+  margin: 10px auto 0; 
+  background-color: var(--beige);
+  border-radius: 5px;
+}
+.card a{
+    text-decoration: none;
+    color: var(--Brown);
+}
+.card button:hover{
+    background-color: darkgreen;
+}
